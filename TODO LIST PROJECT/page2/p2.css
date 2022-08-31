@@ -1,0 +1,30 @@
+
+.nvbr{
+    background-color: black;
+    color: white;
+}
+.bdy{background-color: whitesmoke;
+    color: black;}
+.bg-dark{
+    color: whitesmoke !important;
+}
+.bg-light{
+    color: black !important;
+}
+.ff{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smalll{
+    transition:all  400ms !important;
+
+    max-height: 14.3rem;
+    overflow: hidden;
+}
+
+.bigg{
+    overflow: hidden;
+    transition:  400ms !important;
+    max-height: 50rem;
+}

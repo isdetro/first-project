@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.6">
+  <title>Offcanvas template · Bootstrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/offcanvas/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+  <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+  <link rel="stylesheet" href="/TODO LIST PROJECT/page2/p2.css">
+  <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#563d7c">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="offcanvas.css" rel="stylesheet">
+</head>
+
+<body class="bg-light bdy">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark nvbr">
+    <a class="navbar-brand mr-auto mr-lg-0 nvbr" href="/TODO LIST PROJECT/page2/page2.html">isdetro</a>
+    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse offcanvas-collapse nvbr" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a class="nav-link nvbr" href="https://www.facebook.com/notifications/">Notifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nvbr" href="https://www.instagram.com/isdetro">Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nvbr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Mode</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" onclick="changeClassl()">Light</a>
+            <a class="dropdown-item" onclick="changeClassd()">Dark</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nvbrs" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Contact</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="https://www.instagram.com/isdetro">Instagram</a>
+            <a class="dropdown-item" href="https://www.fb.com/isdetro">Facebook</a>
+            <a class="dropdown-item"
+              href="https://api.whatsapp.com/send/?phone=0994555061197&text&type=phone_number&app_absent=0">Whatsapp</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="nav-scroller bg-white shadow-sm">
+    <nav class="nav nav-underline">
+      <a class="nav-link active" href="#">Dashboard</a>
+      <a class="nav-link" href="#">
+        Friends
+        <span class="badge badge-pill bg-light align-text-bottom">27</span>
+      </a>
+      <a class="nav-link" href="#">Explore</a>
+      <a class="nav-link" href="#">Suggestions</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Link</a>
+    </nav>
+  </div>
+
+  <main role="main" class="container">
+    <div class="d-flex align-items-center p-3 my-3  bg-purple rounded shadow-sm bdy bg-white">
+      <img class="mr-3" src="/TODO LIST PROJECT/close-up.jpg" alt="" width="48" height="48">
+      <div class="lh-100">
+        <h6 class="mb-0  lh-100">Isgender Detroit</h6>
+        <small>Since 1997</small>
+      </div>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h6 class="border-bottom border-gray pb-2 mb-0">Friends</h6>
+      <div id="friends-list" class="smalll" >
+        <div class="media text-muted pt-3">
+          <img onclick="Ali()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/ali.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gasimzadeali</strong>
+            Ali Gasimzade
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Oktay()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/okt.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@oktayafandi</strong>
+            Oktay Efendiyev
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Gismat()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/gis.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gismathusein</strong>
+            Qismet Huseynov
+          </p>
+        </div>
+
+
+        <div class="media text-muted pt-3">
+          <img onclick="Ali()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/ali.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gasimzadeali</strong>
+            Ali Gasimzade
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Oktay()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/okt.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@oktayafandi</strong>
+            Oktay Efendiyev
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Gismat()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/gis.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gismathusein</strong>
+            Qismet Huseynov
+          </p>
+        </div>
+
+        <div class="media text-muted pt-3">
+          <img onclick="Ali()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/ali.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gasimzadeali</strong>
+            Ali Gasimzade
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Oktay()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/okt.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@oktayafandi</strong>
+            Oktay Efendiyev
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img onclick="Gismat()" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+            class="bd-placeholder-img mr-2 rounded" width="48" height="48" src="/TODO LIST PROJECT/gis.png"
+            preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"> </svg>
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@gismathusein</strong>
+            Qismet Huseynov
+          </p>
+        </div>
+      </div>
+
+      <small class="d-block text-right mt-3">
+        <a onclick="more()" id="mmore" href="#">More</a>
+      </small>
+    </div>
+
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h6 class="border-bottom border-gray pb-2 mb-0">Suggestions</h6>
+      <div class="media text-muted pt-3">
+        <img class="bd-placeholder-img mr-2 rounded" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+          width="48" height="48" src="/TODO LIST PROJECT/gymfoxi.png" preserveAspectRatio="xMidYMid slice"
+          focusable="false" role="img" aria-label="Placeholder: 32x32" />
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100 ">
+            <strong class="text-gray-dark">Fidan Turksoy</strong>
+            <a href="#">Follow</a>
+          </div>
+          <span class="d-block">@gymfoxfi</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <img class="bd-placeholder-img mr-2 rounded" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+          width="48" height="48" src="/TODO LIST PROJECT/abella.jpeg" preserveAspectRatio="xMidYMid slice"
+          focusable="false" role="img" aria-label="Placeholder: 32x32" />
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Abella Danger</strong>
+            <a href="https://www.instagram.com/dangershewrote/">Follow</a>
+          </div>
+          <span class="d-block">@dangershewrote</span>
+        </div>
+      </div>
+      <div class="media text-muted pt-3">
+        <img class="bd-placeholder-img mr-2 rounded" onmouseover="bigImg(this)" onmouseleave="normalImg(this)"
+          width="48" height="48" src="/TODO LIST PROJECT/NatashaNiece.jpg" preserveAspectRatio="xMidYMid slice"
+          focusable="false" role="img" aria-label="Placeholder: 32x32" />
+
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">Natasha Niece</strong>
+            <a href="https://www.instagram.com/natashaniceonline/">Follow</a>
+          </div>
+          <span class="d-block">@natashaniceonline</span>
+        </div>
+      </div>
+      <small class="d-block text-right mt-3">
+        <a href="#">All suggestions</a>
+      </small>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+    crossorigin="anonymous"></script>
+
+  <script src="aa.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
